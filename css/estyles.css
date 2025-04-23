@@ -36,3 +36,44 @@ body {
     color: #343a40; /* Un negro ligeramente más suave para el texto principal */
     line-height: 1.6;
 }
+#destacado {
+    background-color: #e3f2fd; /* Un azul muy claro para el fondo de la sección */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+#destacado h2 {
+    color: #1e88e5; /* Un azul un poco mas oscuro para el título */
+    margin-bottom: 1em;
+    border-bottom: 2px solid #1e88e5;
+    padding-bottom: 0.5em;
+}
+
+#destacado ul {
+    list-style: none;
+    padding: 0;
+}
+
+#destacado ul li {
+    margin-bottom: 0.5em;
+    padding-left: 1.2em;
+    position: relative;
+    color: #3f51b5; /* Un azul más intenso para los ítems de la lista */
+}
+
+#destacado ul li strong {
+    color: #1976d2; /* Un azul  mas intenso para resaltar las habilidades */
+}
+
+#destacado ul li::before {
+    content: "\2022"; /* Viñeta */
+    color: #1e88e5;
+    position: absolute;
+    left: 0;
+}
+
+#destacado p {
+    color: #5c6bc0; /* Un tono de azul para el texto del parrafo */
+}
