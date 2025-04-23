@@ -16,7 +16,24 @@ nav ul {
     padding: 0;
     margin: 0;
     display: flex; /* Si estás usando flexbox para alinear los elementos */
-    justify-content: center; /* Si estás centrando los elementos */
+    flex-direction: column; /* Para apilar los botones verticalmente (si los quieres a la izquierda en columna) */
+    align-items: flex-start; /* Para alinear los elementos a la izquierda */
+}
+nav a {
+    display: block; /* Para que el enlace ocupe todo el ancho del botón */
+    color: #fff;
+    text-decoration: none;
+    padding: 0.7em 1.2em; /* Espaciado dentro del botón */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #007bff; /* Color de fondo inicial del botón */
+    transition: background-color 0.3s ease; /* Transición suave para el hover */
+    margin-bottom: 0.5em; /* Espacio entre los botones (si están en columna) */
+    margin-right: 1em; /* Espacio entre los botones (si están en fila horizontal - descomentar si es el caso) */
+}
+
+nav a:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el mouse */
+    color: #e9ecef; /* Cambiar el color del texto al pasar el mouse (opcional) */
 }
 
 .foto-perfil {
@@ -54,7 +71,7 @@ body {
 #destacado h2 {
     color: #1e88e5; /* Un azul un poco mas oscuro para el título */
     margin-bottom: 1em;
-    border-bottom: 2px solid #1e88e5;
+    border-bottom: 2px solid #424242;
     padding-bottom: 0.5em;
 }
 
@@ -119,7 +136,7 @@ body {
 
 #proyectos ul li::before {
     content: "\2022";
-    color: #2196f3;
+    color: #424242;
     position: absolute;
     left: 0;
 }
