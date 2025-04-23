@@ -11,6 +11,13 @@ header {
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+nav ul {
+    list-style: none; /* Quita los puntos */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Si estás usando flexbox para alinear los elementos */
+    justify-content: center; /* Si estás centrando los elementos */
+}
 
 .foto-perfil {
     width: 180px; /* Un poco más grande */
