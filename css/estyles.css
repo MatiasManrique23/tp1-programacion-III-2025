@@ -77,3 +77,96 @@ body {
 #destacado p {
     color: #5c6bc0; /* Un tono de azul para el texto del parrafo */
 }
+
+/* Estilos para la sección #proyectos */
+#proyectos {
+    background-color: #f0f8ff; /* Un azul muy claro diferente para esta seccion */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+#proyectos h2 {
+    color: #2196f3; /* Otro tono de azul para el titulo */
+    margin-bottom: 1em;
+    border-bottom: 2px solid #2196f3;
+    padding-bottom: 0.5em;
+}
+
+#proyectos ul {
+    list-style: none;
+    padding: 0;
+}
+
+#proyectos ul li {
+    margin-bottom: 0.5em;
+    padding-left: 1.2em;
+    position: relative;
+    color: #1976d2; /* Un azul mas intenso para los items */
+}
+
+#proyectos ul li strong {
+    color: #0d47a1; /* Un azul  mas oscuro para el enfasis */
+}
+
+#proyectos ul li::before {
+    content: "\2022";
+    color: #2196f3;
+    position: absolute;
+    left: 0;
+}
+
+#proyectos p {
+    color: #424242; /* Un gris oscuro para el texto */
+}
+
+/* Estilos para la seccion #sobre-mi (en la pagina sobre-mi.html) */
+#sobre-mi {
+    background-color: #fff; /* Fondo blanco para la seccion Sobre Mi */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+#sobre-mi h2 {
+    color: #007bff; /* Azul para el titulo */
+    margin-bottom: 1em;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 0.5em;
+}
+
+#sobre-mi h3 {
+    color: #28a745; /* Verde para los subtitulos */
+    margin-top: 1.5em;
+    margin-bottom: 0.8em;
+}
+
+#sobre-mi ul {
+    list-style: none;
+    padding: 0;
+}
+
+#sobre-mi ul li {
+    margin-bottom: 0.5em;
+    padding-left: 1.2em;
+    position: relative;
+    color: #555; /* Texto general */
+}
+
+#sobre-mi ul li strong {
+    color: #007bff; /* Resaltar habilidades */
+}
+
+#sobre-mi ul li::before {
+    content: "\2022";
+    color: #007bff;
+    position: absolute;
+    left: 0;
+}
+
+#sobre-mi p {
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 1em;
+}
