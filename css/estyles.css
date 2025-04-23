@@ -4,6 +4,14 @@
     background-color: #549fe9; /* Un fondo suave para distinguirlo */
 }
 
+header {
+    background-color: #007bff; /* Un azul llamativo para el encabezado */
+    color: #fff;
+    padding: 1.5em 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 .foto-perfil {
     width: 180px; /* Un poco más grande */
     height: 180px;
@@ -13,16 +21,18 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Un sutil efecto de sombra */
 }
 
-.foto-perfil img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Cubrir el contenedor sin deformar la imagen */
-}
-
 .intro {
     font-size: 1.2em;
     line-height: 1.7;
     color: #555;
     max-width: 600px;
     margin: 0 auto; /* Centrar el texto */
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Un gris muy claro como fondo general */
+    color: #343a40; /* Un negro ligeramente más suave para el texto principal */
+    line-height: 1.6;
 }
