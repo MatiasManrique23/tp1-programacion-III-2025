@@ -4,8 +4,51 @@
     background-color: #549fe9; /* Un fondo suave para distinguirlo */
 }
 
+body.pagina-contacto header {
+    background-image: url('../imagenes/imagen-contacto.jpg'); /*ruta de la imagen */
+    background-size: 20% auto; /* para que la imagen se ajuste dentro del header */
+    background-position: center top; /*centramos horizontalmente y la pegamos a la parte superior */ 
+    background-repeat: no-repeat; /* para evitar que la imagen se repita */
+    color: #fff;
+    padding: 1.5em 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    min-height: auto; /* Ajustamos la altura automáticamente según la imagen y el contenido */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Alineamos el contenido al inicio (arriba) */
+    align-items: flex-start;
+}
+/* Estilos para la navegación (ul) dentro del header de la página de contacto */
+body.pagina-contacto header nav ul {
+    list-style: none; /* Quita los puntos */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Usamos flexbox */
+    flex-direction: column; /* Apilamos los elementos verticalmente */
+    align-items: flex-start; /* Alineamos los elementos a la izquierda */
+}
+/* Estilos para los enlaces (a) dentro de la navegación del header de la página de contacto */
+body.pagina-contacto header nav a {
+    display: block; /* Para que ocupen todo el ancho disponible */
+    color: #fff;
+    text-decoration: none;
+    padding: 0.7em 1.2em;
+    border-radius: 5px;
+    background-color: #007bff;
+    transition: background-color 0.3s ease;
+    margin-bottom: 0.5em; /* Espacio entre botones */
+    margin-right: auto; /* Empuja el margen derecho para alinear a la izquierda */
+    width: fit-content; /* El ancho se ajusta al contenido */
+}
+/* Estilos para el hover de los enlaces (a) dentro de la navegación del header de la página de contacto */
+body.pagina-contacto header nav a:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el mouse */
+    color: #e9ecef; /* Cambiar el color del texto al pasar el mouse (opcional) */
+}
+/* Mantenemos los estilos generales del header para las otras páginas, pero sin la imagen de fondo */
 header {
-    background-color: #007bff; /* Un azul llamativo para el encabezado */
+    background-color: #007bff; /* El azul llamativo para el encabezado en otras páginas */
     color: #fff;
     padding: 1.5em 20px;
     text-align: center;
