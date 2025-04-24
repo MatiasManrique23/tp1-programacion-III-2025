@@ -254,3 +254,32 @@ footer {
     font-size: 0.9em;
     border-top: 1px solid #ddd; /* Una línea sutil para separarlo visualmente */
 }
+
+body.pagina-sobre-mi header {
+    background-image: url('../imagenes/sobre-mi.png'); /*ruta de la imagen */
+    background-size: 20% auto; /* para que la imagen se ajuste dentro del header */
+    background-position: center top; /*centramos horizontalmente y la pegamos a la parte superior */ 
+    background-repeat: no-repeat; /* para evitar que la imagen se repita */
+    color: #fff;
+    padding: 1.5em 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    min-height: auto; /* Ajustamos la altura automáticamente según la imagen y el contenido */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Alineamos el contenido al inicio (arriba) */
+    align-items: flex-start;
+}
+.imagen-header {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.imagen-header img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
