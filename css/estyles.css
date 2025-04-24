@@ -79,13 +79,10 @@ nav a:hover {
     color: #e9ecef; /* Cambiar el color del texto al pasar el mouse (opcional) */
 }
 
-.foto-perfil {
-    width: 180px; /* Un poco más grande */
-    height: 180px;
-    border-radius: 50%;
-    overflow: hidden; /* Asegura que la imagen se mantenga dentro del círculo */
-    margin: 0 auto 1.5em; /* Centrar horizontalmente y dar espacio abajo */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Un sutil efecto de sombra */
+.foto-perfil img {
+    width: 10%; /* Hace que la imagen intente ocupar todo el ancho del círculo */
+    height: 10%; /* Hace que la imagen intente ocupar toda la altura del círculo */
+    object-fit: cover; /* Recorta la imagen para cubrir el círculo manteniendo la proporción */
 }
 
 .intro {
